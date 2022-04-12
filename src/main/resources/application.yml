@@ -1,0 +1,28 @@
+server:
+  port: 8005
+spring:
+  application:
+    name: NoLimit
+    profiles:
+      active: dev
+  datasource:
+    type : com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/dev?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+      username: root
+      password: 123456
+      initialize: true
+mybatis:
+  mapper-locations: classpath:mapper/*.xml #注意：一定要对应mapper映射xml文件的所在路径
+  type-aliases-package: com.house.pojo # 注意：对应实体类的路径
+  #开启驼峰命名识别
+  configuration:
+    map-underscore-to-camel-case: true
+
+logging:
+  level.org.springframework.boot.autoconfigure: error #spring的自动装配日志只打error，否则debug输出的会打印很多自动装配的log信息到控制台
+  config: classpath:logback-spring.xml
+zookeeper:
+  address: 127.0.0.1
+  timeout: 4000
