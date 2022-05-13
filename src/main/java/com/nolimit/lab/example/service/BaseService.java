@@ -1,2 +1,7 @@
-package com.nolimit.lab.example.service;public interface BaseService {
+package com.nolimit.lab.example.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public interface BaseService {
 }
