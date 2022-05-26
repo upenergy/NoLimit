@@ -1,2 +1,4 @@
-package com.nolimit.lab.example.service;public interface BillService {
+package com.nolimit.lab.example.service;
+
+public interface BillService {
 }
