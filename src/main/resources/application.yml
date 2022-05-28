@@ -15,7 +15,7 @@ spring:
       initialize: true
 mybatis:
   mapper-locations: classpath:mapper/*.xml #注意：一定要对应mapper映射xml文件的所在路径
-  type-aliases-package: com.house.pojo # 注意：对应实体类的路径
+  type-aliases-package: com.nolimit.lab.example.pojo # 注意：对应实体类的路径
   #开启驼峰命名识别
   configuration:
     map-underscore-to-camel-case: true
@@ -25,4 +25,4 @@ logging:
   config: classpath:logback-spring.xml
 zookeeper:
   address: 127.0.0.1
-  timeout: 4000
+  timeout: 5000
