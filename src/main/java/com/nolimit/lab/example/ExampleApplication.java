@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @SpringBootApplication
-public class Example {
+public class ExampleApplication {
 
 
     public static void main(String[] args) {
