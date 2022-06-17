@@ -7,3 +7,4 @@ https://www.collinsdictionary.com/
 https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/why-are-my-contributions-not-showing-up-on-my-profile
 https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/
 https://mybatis.org/mybatis-3/getting-started.html
+https://www.tutorialspoint.com/mybatis/mybatis_mapper_xml.htm
