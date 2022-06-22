@@ -1,4 +1,9 @@
 package com.nolimit.lab.example.service.impl;
 
-public class BillServiceImpl {
+
+import com.nolimit.lab.example.service.BillService;
+
+public class BillServiceImpl implements BillService {
+
+
 }
