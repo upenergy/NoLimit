@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
 <mapper namespace="org.mybatis.example.PaymentMapper">
+
+  <resultMap id="paymentMap" type="com.example.model.Payment">
+     <id property="id" column="id" />
+     <result property="orderNumber" column="orderNumber" />
+     <result property="outTradeNo" column="outTradeNo" />
+   </resultMap>
+  <resultMap id="userMap" type="com.example.model.User">
+     <id property="id" column="id" />
+     <result property="name" column="name" />
+     <association property="email" select="selectUserEmailById" column="id" fetchType="lazy"/>
+   </resultMap>
+
+
   <select id="selectPayment" resultType="result">
     select * from Payments where id = #{id}
   </select>
