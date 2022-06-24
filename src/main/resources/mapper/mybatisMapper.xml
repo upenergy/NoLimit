@@ -16,6 +16,6 @@
 
 
   <select id="selectPayment" resultType="result">
-    select * from Payments where id = #{id}
+    select * from Payments where id = #{id} and orderNumber = #{orderNumber}
   </select>
 </mapper>
