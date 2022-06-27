@@ -18,4 +18,8 @@
   <select id="selectPayment" resultType="result">
     select * from Payments where id = #{id} and orderNumber = #{orderNumber}
   </select>
+
+  <select id="selectPayments" resultType="result">
+    select * from Payments order by id desc
+  </select>
 </mapper>
