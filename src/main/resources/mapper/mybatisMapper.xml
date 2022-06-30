@@ -22,4 +22,7 @@
   <select id="selectPayments" resultType="result">
     select * from Payments order by id desc
   </select>
+  <select id="selectPaymentsByType" resultType="result">
+    select * from Payments where 1=1 order by id desc
+  </select>
 </mapper>
