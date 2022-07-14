@@ -7,7 +7,7 @@ public interface BillService extends BaseService {
 
 	List<Bill> listBill();
 	List<Bill> addBill(Bill bill);
-	Bill editBIll(Bill bill);
-	
+	Bill updateBIll(Bill bill);
+	Bill syncBill(List<Bill> bill, Date date, List<Bill> foreignBill);
     
 }
