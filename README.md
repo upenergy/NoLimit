@@ -2,6 +2,8 @@
 https://dictionary.cambridge.org/
 https://spring.io/quickstart
 https://github.com/upenergy
+https://docs.spring.io/spring-data/elasticsearch/docs/current/reference/html
+https://www.elastic.co/
 https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-email-preferences/setting-your-commit-email-address#about-commit-email-addresses
 https://www.collinsdictionary.com/
 https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/why-are-my-contributions-not-showing-up-on-my-profile
