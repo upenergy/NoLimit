@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.PageDTO;
 import com.nolimit.lab.example.service.PaymentService;
 
 @RequestMapping("/payments")
-public class PaymentServiceImpl implements PaymentService {
+public class PaymentServiceImpl implements PaymentService extends BaseService {
 
     private static final int DEFAULT_PAYMENT_METHOD = 0;
 
@@ -14,4 +14,5 @@ public class PaymentServiceImpl implements PaymentService {
         List<PaymentOrder> paymentOrderList = null;
         return new PageDTO<PaymentOrder>();
     }
+
 }
