@@ -12,10 +12,6 @@ public class PaymentServiceImpl implements PaymentService {
     public PageDTO<PaymentOrder> listPaymentOrder(@RequestBody PaymentOrderDTO paymentOrderDTO) {
 
         List<PaymentOrder> paymentOrderList = null;
-        if(){
-
-        }
-
         return new PageDTO<PaymentOrder>();
     }
 }
