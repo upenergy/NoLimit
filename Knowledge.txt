@@ -17,3 +17,15 @@ Java位运算
 
 Feign调用问题
 https://blog.csdn.net/qq_40233503/article/details/104981465
+1、另外需要注意，后段服务接口类不能有两个路径一致且请求类型一致的方法，否则也可能报405.
+2、后段服务类的方法访问路径一定要与调用端接口对应的方法访问路径一致，极易导致的问题是服务类顶部定义了一个路径开头，接着类方法访问路径叠加定义了开头的这个路径。
+
+
+服务提供方需要在“@RequestParam”注解里边使用“value”属性加上等号，后边跟着变量名方能生效，调用端接口定义则不需要使用“value”属性，直接在注解里边协商变量名。
+服务端
+@RequestParam(value = "pageNumber", defaultValue = "0") Integer pageNumber, @RequestParam(value = "pageSize", defaultValue = "10") Integer pageSize
+调用端接口
+@RequestParam("pageNumber") Integer pageNumber, @RequestParam("pageSize") Integer pageSize
+
+
+
