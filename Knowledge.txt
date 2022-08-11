@@ -40,4 +40,5 @@ https://www.cnblogs.com/dongrilaoxiao/p/6688107.html
 中文在“UTF-8”编码下占用了三个字节
 
 BufferReader每调用一遍"readLine()"则自动读取文件一行！
+“SQL”“like”要注意判断。
 
