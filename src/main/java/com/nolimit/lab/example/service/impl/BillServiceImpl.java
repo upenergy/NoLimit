@@ -11,5 +11,11 @@ public class BillServiceImpl implements BillService {
 		return billList;
 	}
 
+	public List<Bill> addBill(Bill bill){
+
+		List<Bill> billList = null;
+		return billList;
+	}
+
 
 }
