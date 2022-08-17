@@ -48,6 +48,10 @@ https://adminlte.io/themes/AdminLTE/pages/UI/icons.html
 
 https://www.hollischuang.com/
 https://www.cnblogs.com/java-my-life/archive/2012/05/28/2516865.html
+https://www.cnblogs.com/java-my-life/archive/2012/05/10/2491891.html
+《Java并发编程实战》
+《深入理解Java虚拟机》
+《Oracle JRockit: The Definitive Guide》
 
 
 
