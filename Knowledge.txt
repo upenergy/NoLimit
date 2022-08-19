@@ -59,9 +59,16 @@ http://www.hrauk.com/zx/xw/94.html
 缓存穿透
 缓存穿透意思就是某个不存在的key一直被访问，结果发现数据库中也没有这样的数据，最终导致访问该key的所有请求都直接请求到数据库了。如果是并发高的场景下就容易搞垮数据库。
 
+
 https://www.zhihu.com/question/331694425
+“git ssh的端口怎么改”
 https://segmentfault.com/q/1010000022185111
+
 https://github.com/cli/cli/blob/trunk/docs/install_linux.md
+“CentOS”重启ssh服务的命令如下：
+# service sshd restart
+https://blog.csdn.net/qq_36775019/article/details/121982926
+
 
 
 
