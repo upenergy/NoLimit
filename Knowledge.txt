@@ -72,6 +72,11 @@ https://stackoverflow.com/questions/68775869/message-support-for-password-authen
 https://askubuntu.com/questions/610940/ssh-connect-to-host-github-com-port-22-connection-refused#:~:text=If%20you%20get%20a%20connection,status.github.com%2F)
 https://stackoverflow.com/questions/15589682/ssh-connect-to-host-github-com-port-22-connection-timed-out
 
+How to Fix Git Always Asking For User Credentials For HTTP(S) Authentication
+https://www.tecmint.com/fix-git-user-credentials-for-https/
+Git push requires username and password
+https://stackoverflow.com/questions/6565357/git-push-requires-username-and-password
+
 “CentOS”重启ssh服务的命令如下：
 # service sshd restart
 https://blog.csdn.net/qq_36775019/article/details/121982926
