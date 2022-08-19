@@ -70,6 +70,7 @@ https://github.com/cli/cli/blob/trunk/docs/install_linux.md
 https://stackoverflow.com/questions/13106179/fatal-not-possible-to-fast-forward-aborting
 https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed-please-use-a-personal
 https://askubuntu.com/questions/610940/ssh-connect-to-host-github-com-port-22-connection-refused#:~:text=If%20you%20get%20a%20connection,status.github.com%2F)
+https://stackoverflow.com/questions/15589682/ssh-connect-to-host-github-com-port-22-connection-timed-out
 
 “CentOS”重启ssh服务的命令如下：
 # service sshd restart
