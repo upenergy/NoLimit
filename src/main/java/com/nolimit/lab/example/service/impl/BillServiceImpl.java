@@ -20,7 +20,10 @@ public class BillServiceImpl implements BillService {
 	public Bill updateBIll(Bill bill){
 
 	}
-	Bill syncBill(List<Bill> bill, Date date, List<Bill> foreignBill);
+
+	public Bill syncBill(List<Bill> bill, Date date, List<Bill> foreignBill){
+		
+	}
 
 
 }
