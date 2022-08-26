@@ -17,5 +17,10 @@ public class BillServiceImpl implements BillService {
 		return billList;
 	}
 
+	public Bill updateBIll(Bill bill){
+
+	}
+	Bill syncBill(List<Bill> bill, Date date, List<Bill> foreignBill);
+
 
 }
