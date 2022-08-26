@@ -14,6 +14,6 @@ public class PaymentOrder implements Serializable {
     private String outTradeNo;
     private BigDecimal salePrice;
     private OrderState orderState;
-    
+
 
 }
