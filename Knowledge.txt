@@ -86,6 +86,11 @@ https://www.zhihu.com/question/331694425
 
 https://www.smithsonianmag.com/smart-news/can-you-reuse-a-kn95-or-n95-mask-experts-say-yes-but-follow-these-steps-180979404/
 
+注意calendar.setTime(date);Calendar类是里面基本都是final修饰的，calendar是共享变量，并且这个共享变量没有做线程安全控制。当多个线程同时使用相同的SimpleDateFormat对象【如用static修饰的SimpleDateFormat，一般会封装在工具类，复用】调用format方法时，多个线程会同时调用calendar.setTime方法，可能一个线程刚设置好time值另外的一个线程马上把设置的time值给修改了导致返回的格式化时间可能是错误的。
+在多并发情况下使用SimpleDateFormat需格外注意。
+SimpleDateFormat除了format方法是线程不安全以外，parse方法也是线程不安全的。parse方法实际调用。
+https://blog.csdn.net/qq_43409401/article/details/115696152
+
 
 
 
