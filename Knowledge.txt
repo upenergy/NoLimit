@@ -95,3 +95,4 @@ https://blog.csdn.net/qq_43409401/article/details/115696152
 SELECT * FROM table t WHERE Date(t.created_at) = '2022-01-01'
 
 
+
