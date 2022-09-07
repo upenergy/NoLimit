@@ -101,7 +101,9 @@ https://installati.one/centos/8/ibus/
 https://www.cnblogs.com/leap/p/12592441.html
 
 KDE安装IBus以及IBus拼音
+https://www.cnblogs.com/nihaorz/p/15080186.html
 
-
-
-
+安装OpenVmTools以及OpenVmToolsDesktop
+https://blog.csdn.net/u010913204/article/details/100905611
+apt-get install open-vm-tools
+sudo apt-get install open-vm-tools-desktop
