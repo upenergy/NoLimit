@@ -100,5 +100,8 @@ https://installati.one/centos/8/ibus/
 
 https://www.cnblogs.com/leap/p/12592441.html
 
+KDE安装IBus以及IBus拼音
+
+
 
 
