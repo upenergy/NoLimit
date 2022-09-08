@@ -107,3 +107,5 @@ https://www.cnblogs.com/nihaorz/p/15080186.html
 https://blog.csdn.net/u010913204/article/details/100905611
 apt-get install open-vm-tools
 sudo apt-get install open-vm-tools-desktop
+
+https://segmentfault.com/a/1190000023565685
