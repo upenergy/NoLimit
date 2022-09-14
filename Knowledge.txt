@@ -113,3 +113,9 @@ https://segmentfault.com/a/1190000023565685
 https://funnylog.gitee.io/mysql45/08%E8%AE%B2%E4%BA%8B%E5%8A%A1%E5%88%B0%E5%BA%95%E6%98%AF%E9%9A%94%E7%A6%BB%E7%9A%84%E8%BF%98%E6%98%AF%E4%B8%8D%E9%9A%94%E7%A6%BB%E7%9A%84.html
 https://funnylog.gitee.io/mysql45/
 
+
+atomic原子性，一个事务可能包含多个语句，不会出现一部分修改成功，另外一些失败。要么都成功，要么都失败。
+consistency一致性，这个一致性在不同的上下文会有一定差异。一致性是指状态的变化是符合逻辑的。
+isolation，事务隔离性。并发的事务不相互干扰（符合特定级别的不干扰），具体级别请看CrackingOysters：事务中的脏读，不可重复读，幻影读：Isolation of databases
+duration，持久化。存在数据库的数据可以在重启后可以保留。
+
