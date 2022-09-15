@@ -125,8 +125,9 @@ https://blog.csdn.net/qq_41361506/article/details/108538702
 https://www.zhihu.com/question/485686034
 
 
+Confident people for the benefit of the negative, change from passive to active.
 LocalDateTime
 LocalDate
 LocalTime
 https://www.cnblogs.com/woshimrf/p/LocalDateTime-to-Date.html
-
+heuristic
