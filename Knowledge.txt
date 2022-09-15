@@ -119,3 +119,9 @@ consistency一致性，这个一致性在不同的上下文会有一定差异。
 isolation，事务隔离性。并发的事务不相互干扰（符合特定级别的不干扰），具体级别请看CrackingOysters：事务中的脏读，不可重复读，幻影读：Isolation of databases
 duration，持久化。存在数据库的数据可以在重启后可以保留。
 
+
+https://blog.csdn.net/zzti_erlie/article/details/110454543
+https://blog.csdn.net/qq_41361506/article/details/108538702
+https://www.zhihu.com/question/485686034
+
+
