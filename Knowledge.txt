@@ -131,3 +131,10 @@ LocalDate
 LocalTime
 https://www.cnblogs.com/woshimrf/p/LocalDateTime-to-Date.html
 heuristic
+
+https://howtodoinjava.com/java/date-time/localdatetime-to-date/
+
+
+JQuery 自定义方法  $.fn.extend({'aa':function(){}})    jQuery.fn.aa=function(){}    调用方式：$("#**").aa()，其中JQuery定位符指向的页面元素不一定与定义的方法有关联，只是调用后该方法响应了该元素的一些动作。
+$.extend({'aa':function(){}})  调用方式： $.aa()
+
