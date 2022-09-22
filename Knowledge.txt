@@ -137,4 +137,13 @@ https://howtodoinjava.com/java/date-time/localdatetime-to-date/
 
 JQuery 自定义方法  $.fn.extend({'aa':function(){}})    jQuery.fn.aa=function(){}    调用方式：$("#**").aa()，其中JQuery定位符指向的页面元素不一定与定义的方法有关联，只是调用后该方法响应了该元素的一些动作。
 $.extend({'aa':function(){}})  调用方式： $.aa()
-调用synchronizedMap()方法后会返回一个SynchronizedMap类的对象，而在SynchronizedMap类中使用了synchronized同步关键字来保证对Map的操作是线程安全的。
+调用synchronizedMap()方法后会返回一个SynchronizedMap类的对象，而在SynchronizedMap类中使用了synchronized同步关键字来保证对Map的操作是线程安全的。\
+
+
+JDBC 大致可以分为六个步骤：
+加载驱动程序
+获得数据库连接
+创建一个 Statement 对象
+操作数据库，实现增删改查
+获取结果集
+关闭连接
