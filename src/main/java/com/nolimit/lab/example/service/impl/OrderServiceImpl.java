@@ -14,5 +14,9 @@ public class OrderServiceImpl implements OrderService {
         return orderMapper.listOrder(OrderFilter);
     }
     
+    public Order getById(Long id) {
+    	   return orderMapper.getById(id);
+    }
+    
     
 }
