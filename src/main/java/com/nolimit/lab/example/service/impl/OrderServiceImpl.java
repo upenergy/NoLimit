@@ -14,9 +14,13 @@ public class OrderServiceImpl implements OrderService {
         return orderMapper.listOrder(OrderFilter);
     }
     
+    @Override
     public Order getById(Long id) {
     	   return orderMapper.getById(id);
     }
     
-    
+    @Override
+    public List<Order> getOrderByPage(Long start, Integer pageSize, OrderDTO order) {
+    		return orderMapper.listOrderByPage(start, pageSize, order);
+    }
 }
