@@ -13,7 +13,7 @@ public class PaymentOrder implements Serializable {
     private BigDecimal price;
     private String outTradeNo;
     private BigDecimal salePrice;
-    private OrderState orderState;
+    private OrderStatusEnum orderStatus;
 
 
 }
