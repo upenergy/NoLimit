@@ -23,7 +23,7 @@
     select * from Payments where paymentId =#{paymentId} order by id desc
   </select>
   
-  <select id="count" parameterType="org.apache.ibatis.z_run.pojo.QueryCondition" resultMap="orderMap">
+  <select id="queryOrder" parameterType="org.apache.ibatis.z_run.pojo.QueryCondition" resultMap="orderMap">
     select
     *
     from
