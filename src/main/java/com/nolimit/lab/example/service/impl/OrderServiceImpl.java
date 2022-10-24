@@ -2,25 +2,23 @@
 public class OrderServiceImpl implements OrderService {
 
     @Resource
-    private IOrderDAO orderDAO;
-
-    @Resource
     private OrderMapper orderMapper;
 
-		@Override
     public List<Order> listOrder() {
         
         OrderFilter orderFilter = new OrderFilter();
         return orderMapper.listOrder(OrderFilter);
     }
-    
-    @Override
-    public Order getById(Long id) {
-    	   return orderMapper.getById(id);
-    }
-    
-    @Override
-    public List<Order> getOrderByPage(Long start, Integer pageSize, OrderDTO order) {
-    		return orderMapper.listOrderByPage(start, pageSize, order);
+
+    public PageDTO<Order> getOrderByPage(Integer page, Integer pageSize, ) {
+        
+        Map<String, Object> params = new HashMap<String, Object>();
+        params.put("page", (page-1)*size);
+        params.put("size", size);
+        PageDTP<Order> page = new PageDTO<Order>();
+        List<Order> orderList = orderMapper.findOrderByPage(params);
+        page.setRows(orderList);
+        page.setTotal();
+        return page;
     }
 }
