@@ -11,4 +11,6 @@ public interface OrderMapper {
     PageDTO<Order> findOrderByPage(Map<String, Object> param);
 
     Long totalNumber();
+
+    Order findById(Long orderId);
 }
