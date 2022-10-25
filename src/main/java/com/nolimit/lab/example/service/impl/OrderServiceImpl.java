@@ -10,6 +10,10 @@ public class OrderServiceImpl implements OrderService {
         return orderMapper.listOrder(OrderFilter);
     }
 
+    public Order getById(Long orderId) {
+        return orderMapper.findById(orderId);
+    }
+
     public PageDTO<Order> getOrderByPage(Integer page, Integer pageSize, ) {
         
         Map<String, Object> params = new HashMap<String, Object>();
