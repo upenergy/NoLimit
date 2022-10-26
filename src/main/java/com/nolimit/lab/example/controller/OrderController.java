@@ -13,5 +13,9 @@ public OrderController extends BaseController {
         return orderService.getOrderList(OrderFilter);
     }
 
+    @RequestMapping("/getById"， method = RequestMethod.GET)
+    public Order getById(Long orderId) {
+        return orderService.getById(orderId);
+    }
 
 }
