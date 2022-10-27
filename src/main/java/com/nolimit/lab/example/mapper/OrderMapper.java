@@ -8,7 +8,7 @@ public interface OrderMapper {
     List<Order> listOrder();
     
     @Select("SELECT * FROM orders")
-    PageDTO<Order> findOrderByPage(Map<String, Object> param);
+    PageDTO<Order> findOrderByPage(OrderFilter orderFilter, Map<String, Object> param);
 
     Long totalNumber();
 
