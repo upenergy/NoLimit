@@ -15,7 +15,15 @@ public OrderController extends BaseController {
 
     @RequestMapping("/getById"， method = RequestMethod.GET)
     public Order getById(Long orderId) {
+        if(orderId == null) {
+            return null;
+        }
         return orderService.getById(orderId);
+    }
+
+    @RequestMapping("/getByPage"， method = RequestMethod.POST)
+    public Order getById(@RequestBody OrderFilter orderFilter, @RequestParam(value = "pageNum", defaultValue = "0") Integer pageNum, @RequestParam(value = "pageSize", defaultValue = "0") Integer pageSize) {
+        return orderService.getByPage(orderFilter, pageNum, pageSize);
     }
 
 }
