@@ -1,4 +1,8 @@
-publi Order implements Serializable {
+import com.nolimit.lab.example.entity.OrderStatusEnum;
+
+import java.io.Serializable;
+
+public class Order implements Serializable {
 
 		
 		private Long id;
@@ -7,12 +11,9 @@ publi Order implements Serializable {
 		private Long tenantId;
 		private Long projectId;
 		private String outTradeNo;
-		private OrderTypeEnum type;
+		private OrderStatusEnum type;
 		private String orderName;
 		
-		/**
-     * 分页参数
-     */
     //偏移量
     private Integer offset;
     //每页条数
