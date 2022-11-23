@@ -51,4 +51,7 @@
 <select id="findById" resultType="com.example.model.Order">
     select * from Order WHERE id = #{orderId}
 </select>
+<update id="updateOrder" parameterType="com.example.model.Order">
+    update Order set orderNumber=#{orderNumber}, price=#{price} where id=#{id}
+</update>
 </mapper>
