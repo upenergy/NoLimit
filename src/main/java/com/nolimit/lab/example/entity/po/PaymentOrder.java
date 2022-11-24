@@ -1,5 +1,6 @@
 package com.nolimit.lab.example.entity.po;
 
+import com.nolimit.lab.example.entity.OrderStatusEnum;
 import lombok.Data;
 
 import java.io.Serializable;
