@@ -25,4 +25,8 @@ public class OrderServiceImpl implements OrderService {
         page.setTotal();
         return page;
     }
+
+    public List<Order> getAll(@Param("offset") int offset, @Param("maxResults") int maxResults) {
+        
+    }
 }
