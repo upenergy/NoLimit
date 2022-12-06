@@ -13,4 +13,6 @@ public interface OrderMapper {
     Long totalNumber();
 
     Order findById(Long orderId);
+
+    int updateOrder(Order order);
 }
