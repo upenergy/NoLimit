@@ -5,6 +5,9 @@ import com.nolimit.lab.example.service.BillService;
 
 public class BillServiceImpl implements BillService {
 
+	@Resource
+    private BillMapper billMapper;
+
 	public List<Bill> listBill() {
 
 		List<Bill> billList = null;
