@@ -1,6 +1,6 @@
 public class WebConfig extends WebMvcConfigurerAdapter {
     @Autowired
-    private FangshuaInterceptor interceptor;
+    private NoLimitInterceptor interceptor;
 
 
     @Override
