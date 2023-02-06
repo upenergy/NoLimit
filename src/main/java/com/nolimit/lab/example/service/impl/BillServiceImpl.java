@@ -28,7 +28,10 @@ public class BillServiceImpl implements BillService {
 	}
 
 	public Bill syncBill(List<Bill> bill, Date date, List<Bill> foreignBill){
-		
+		if(bill == null) {
+			return null;
+		}
+
 	}
 
 
